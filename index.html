@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <script src="script.js">
+    </script>
+
+    <form name="inputValeurs">
+      <label for="name_r">Longueur de la diagonale (pouce) :</label>
+      <input type="text" placeholder="Exemple : 17" id="i1" name="i1" required>
+
+      <label for="name_L">Résolution horizontale (pixels):</label>
+      <input type="text" id="i2" placeholder="Exemple : 1080" name="i2" required>
+
+      <label for="name_l">Résolution vertical (pixels):</label>
+      <input type="text" id="i3" placeholder="Exemple : 920" name="i3" required>
+      
+    </form>
+
+    <p type="text" id="r1" name="r1">RESULTAT (pixels par pouce) : 0</p>
+    <p type="text" id="r2" name="r2">RESULTAT (Nombre de pixel/Taille pixel) : 0 / 0</p>
+
+
+    <button id="b1" onclick=hello()>Calcul</button>
+    
+  </body>
+</html>
